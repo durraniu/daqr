@@ -11,20 +11,16 @@
 #' use_virtualenv("r-reticulate")
 #' read_daq_and_save_to_hdf5("path/to/daq/file/myfile.daq")
 #' }
-read_daq_and_save_to_hdf5 <- function(file_name){
-
+read_daq_and_save_to_hdf5 <- function(file_name) {
   file_path_with_hdf5 <- paste0(strsplit(file_name, "[.]")[[1]][1], ".hdf5")
 
-  if (file.exists(file_path_with_hdf5)){
-
+  if (file.exists(file_path_with_hdf5)) {
     print(paste("The hdf5 file", basename(file_path_with_hdf5), "already exists!"))
   } else {
-
     daq <- undaqTools$Daq()
 
     daq$write_hd5(daq$read(file_name))
 
     print(paste("The hdf5 file", basename(file_path_with_hdf5), "successfully converted!"))
   }
-
 }
