@@ -1,4 +1,4 @@
-#' Convert a DAQ file to HDF4 using undaqTools package in Python
+#' Convert a DAQ file to HDF5 using undaqTools package in Python
 #'
 #' @param file_name path to the daq file (string)
 #'

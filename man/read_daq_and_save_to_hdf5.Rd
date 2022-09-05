@@ -2,7 +2,7 @@
 % Please edit documentation in R/convert_daq_to_hdf5.R
 \name{read_daq_and_save_to_hdf5}
 \alias{read_daq_and_save_to_hdf5}
-\title{Convert a DAQ file to HDF4 using undaqTools package in Python}
+\title{Convert a DAQ file to HDF5 using undaqTools package in Python}
 \usage{
 read_daq_and_save_to_hdf5(file_name)
 }
@@ -13,7 +13,7 @@ read_daq_and_save_to_hdf5(file_name)
 saves the converted hdf5 file to disk with the same name as the original daq file
 }
 \description{
-Convert a DAQ file to HDF4 using undaqTools package in Python
+Convert a DAQ file to HDF5 using undaqTools package in Python
 }
 \examples{
 \dontrun{
