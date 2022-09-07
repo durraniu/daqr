@@ -93,7 +93,7 @@ read_daq_and_save_to_hdf5("path/to/daq/file.daq")
 
 ### Getting driver data
 
-You can get several variables from driving data using the function `read_driver_data`. It takes two arguments for `file_name` and `metric`. The `file_name` parameter can be a `daq` file or a `hdf5` file. The units of variables in the resulting dataframe depends on `metric`. If `TRUE`, then the units will be metric, if `FALSE`, the units will be english.  
+You can get several variables from driving data using the function `read_driver_data`. It takes two arguments for `file_name` and `metric`. The `file_name` parameter can be a `daq` file or a `hdf5` file. The units of variables in the resulting dataframe depends on `metric`. If `TRUE`, then the units will be metric, if `FALSE`, the units will be imperial.  
 
 ```{r example2, eval=FALSE}
 library(daqr)

@@ -94,7 +94,7 @@ You can get several variables from driving data using the function
 The `file_name` parameter can be a `daq` file or a `hdf5` file. The
 units of variables in the resulting dataframe depends on `metric`. If
 `TRUE`, then the units will be metric, if `FALSE`, the units will be
-english.
+imperial.
 
 ``` r
 library(daqr)
