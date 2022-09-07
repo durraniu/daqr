@@ -1,14 +1,17 @@
 Package: daqr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Read and extract driving data from driving simulator Data AcQuisition files 
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Umair Durrani
+Maintainer: Umair Durrani <umairdurrani@outlook.com>
+Description: Data AcQuisition (DAQ) files are generated when a scenario is completed 
+    on the National Advanced Driving Simulator (NADS). daqr package provides an 
+    R interface to read and extract data from DAQ files. It uses the python 
+    package undaqTools behind the scenes.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+biocViews : 
 Imports: 
     dplyr,
     magrittr,
@@ -16,3 +19,4 @@ Imports:
     rhdf5,
     tidyr
 RoxygenNote: 7.2.1
+
