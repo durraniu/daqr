@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://durraniu.github.io/daqr/404.html</loc>
+  </url>
+  <url>
+    <loc>https://durraniu.github.io/daqr/LICENSE-text.html</loc>
+  </url>
+  <url>
+    <loc>https://durraniu.github.io/daqr/LICENSE.html</loc>
+  </url>
+  <url>
+    <loc>https://durraniu.github.io/daqr/authors.html</loc>
+  </url>
+  <url>
+    <loc>https://durraniu.github.io/daqr/index.html</loc>
+  </url>
+  <url>
+    <loc>https://durraniu.github.io/daqr/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>https://durraniu.github.io/daqr/reference/pipe.html</loc>
+  </url>
+  <url>
+    <loc>https://durraniu.github.io/daqr/reference/read_daq_and_save_to_hdf5.html</loc>
+  </url>
+  <url>
+    <loc>https://durraniu.github.io/daqr/reference/read_driver_data.html</loc>
+  </url>
+</urlset>
