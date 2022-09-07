@@ -2,7 +2,7 @@ pandoc: 2.14.2
 pkgdown: 2.0.6
 pkgdown_sha: ~
 articles: {}
-last_built: 2022-09-07T02:26Z
+last_built: 2022-09-07T03:01Z
 urls:
   reference: https://durraniu.github.io/daqr/reference
   article: https://durraniu.github.io/daqr/articles
